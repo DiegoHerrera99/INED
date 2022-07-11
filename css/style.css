@@ -10,12 +10,12 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y proximity;
+    /*scroll-snap-type: y proximity;*/
 }
-.parada{
+/*.parada{
     scroll-snap-align: start;
     scroll-snap-stop: always;
-}
+}*/
 *, *:before, *:after {
     box-sizing: inherit;
 }
