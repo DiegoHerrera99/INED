@@ -87,7 +87,7 @@ body{
 @media (min-width: 480px){
    .nav-barra{
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(3, 1fr) repeat(2, auto) repeat(3, 1fr);
    }
    .nav-barra a:nth-child(1){
         grid-area: 1 / 4 / 2 / 6;
@@ -323,6 +323,12 @@ body{
 
     font-weight: 700;
     color: var(--primario);
+
+    text-align: center;
+}
+
+.info span{
+    display: block;
 }
 
 .contacto-form{
