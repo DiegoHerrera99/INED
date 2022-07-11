@@ -10,7 +10,11 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
+}
+.parada{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -73,14 +77,6 @@ body{
     text-decoration: underline;
     text-decoration-thickness: 0.3rem;
 }
-
-/*.parada1,
-.parada2,
-.parada3
-.parada4{
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-}*/
 
 .nav-barra{
     display: flex;
